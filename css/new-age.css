@@ -196,7 +196,10 @@ header .input-lg {
     border: 2px solid #dcdcdc;
     width: 100%;
     height: 47px;
-    max-width: 280px;
+    margin-bottom: 20px;
+}
+header .btn-xl { 
+    width: 100%;
 }
 @media (min-width: 768px) {
   header {
@@ -431,6 +434,7 @@ footer ul li a.active {
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px;
+  margin-bottom: 7px;
 }
 ::-moz-selection {
   color: white;
